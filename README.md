@@ -46,4 +46,4 @@ Angelica Sargent
 ![Screenshot](./assets/images/Screenshot1.png)
 
 # Link
-Take a look at this [link] https://agraysargent.github.io/password-generator/
+Take a look at this [link](https://agraysargent.github.io/password-generator/).
