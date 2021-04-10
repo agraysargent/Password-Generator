@@ -29,7 +29,7 @@ alpha2 = alpha.map(toUpper);
 // write password to the #password input
 function writePassword() {
   var password = generatePassword();
-  console.log({password})
+  console.log({ password })
   var passwordText = document.querySelector("#password");
   passwordText.value = password;
 }
@@ -55,7 +55,7 @@ function generatePassword() {
 
   console.log(confirmNumber, confirmCharacter, confirmUppercase, confirmLowercase);
 
-// worked with tutor on .push and spread operator
+  // worked with tutor on .push and spread operator
 
   if (confirmCharacter) {
     choices.push(...character)
@@ -81,5 +81,5 @@ function generatePassword() {
     password += pickChoices;
 
   }
- return password; 
+  return password;
 }
