@@ -69,6 +69,11 @@ function generatePassword() {
   if (confirmUppercase) {
     choices.push(...alpha2)
   }
+
+  if (!confirmCharacter && !confirmNumber && !confirmUppercase && !confirmLowercase) {
+    alert("You must choose a criteria!");
+    return "";
+  }
   // random variable selection and random selection for every variable
 
   for (var i = 0; i < enter; i++) {
