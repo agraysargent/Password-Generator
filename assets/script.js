@@ -81,5 +81,5 @@ function generatePassword() {
     password += pickChoices;
 
   }
-  return password;
+  return "";
 }
