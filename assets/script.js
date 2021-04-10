@@ -43,7 +43,7 @@ function generatePassword() {
   enter = parseInt(prompt("How many characters would you like in your password? Choose between 8 and 128 characters."));
   if (enter < 8 || enter > 128) {
     alert('not a valid input, please try again');
-    return;
+    return "";
   }
 
   // following questions asked for password preference
