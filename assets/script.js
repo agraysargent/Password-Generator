@@ -19,6 +19,8 @@ alpha = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "
 // space is for uppcase version, also displaying function for uppercase conversion
 space = [];
 
+
+// utilized map with tutor
 var toUpper = function (x) {
   return x.toUpperCase();
 };
