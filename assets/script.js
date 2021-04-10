@@ -40,6 +40,7 @@ generateBtn.addEventListener("click", writePassword);
 
 function generatePassword() {
   // asks for user input
+  choices = [];
   enter = parseInt(prompt("How many characters would you like in your password? Choose between 8 and 128 characters."));
   if (enter < 8 || enter > 128) {
     alert('not a valid input, please try again');
@@ -75,11 +76,12 @@ function generatePassword() {
     return "";
   }
   // random variable selection and random selection for every variable
-
+  var password = "";
   for (var i = 0; i < enter; i++) {
     var pickChoices = choices[Math.floor(Math.random() * choices.length)];
     password += pickChoices;
+    console.log(password)
 
   }
-  return "";
+  return password;
 }
