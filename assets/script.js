@@ -20,7 +20,7 @@ alpha = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "
 space = [];
 
 
-// utilized map with tutor
+// utilized jscript book for map
 var toUpper = function (x) {
   return x.toUpperCase();
 };
@@ -69,7 +69,6 @@ function generatePassword() {
   if (confirmUppercase) {
     choices.push(...alpha2)
   }
-
   // random variable selection and random selection for every variable
 
   for (var i = 0; i < enter; i++) {
